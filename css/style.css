@@ -1,0 +1,102 @@
+body{
+  /* background: url(/image/snake-161424_1280.png) no-repeat center ; */
+  /* transform: translate(60px); */
+  background-size: 60%;
+  
+  
+}
+.wrapper{
+  border: 2px solid green;
+  width: 32rem;
+  height: 36.5rem;
+  margin: 4rem auto;
+  
+ background-color: rgba(216, 140, 25, 0.3);
+  /* background: url(/image/bg.png) no-repeat; */
+  background-size: contain;
+  position: relative;
+
+}
+.btn{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-color: rgba(25, 216, 34, 0.3); */
+  z-index: 2;
+  
+}
+.btn button{
+  background: none;
+  border: none;
+  background-size: 100% 100%;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+}
+.start button{
+  width: 200px;
+  height: 140px;
+  
+  background-image: url(/image/start.png);
+  position: absolute;
+  margin-left: -100px;
+  
+  
+  /* z-index: 3; */
+
+}
+.restart button{
+  
+  width: 140px;
+  height: 140px;
+  background-image: url(/image/restart.png);
+  position: absolute;
+  margin-left: -70px;
+  margin-top: -70px;
+  /* z-index: 3; */
+
+}
+
+table{
+  border-collapse: collapse; 
+  /* border: 2px solid green; */
+  /* border: solid .0625rem #aaa; */
+  margin: 0.5rem auto;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: url(/image/bg.png) no-repeat;
+  background-size: cover;
+
+
+}
+td{
+  width: 1.5rem;
+  height: 1.5rem;
+  /* border: .0625rem solid #aaa; */
+  /* color: red; */
+  /* border-radius: 50%; */
+}
+
+
+#apple{
+  width: 20px;
+  height: 20px;
+
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#score{
+  font-size: large;
+  color: red;
+}
+
+.hide{
+  display: none;
+}
+.display{
+  display: block;
+}
+
